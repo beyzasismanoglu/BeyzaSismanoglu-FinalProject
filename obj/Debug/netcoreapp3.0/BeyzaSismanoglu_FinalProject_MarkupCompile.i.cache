@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_0
 F:\BeyzaSismanoglu_FinalProject\App.xaml
-21796362831
+3-829628818
 
-11-1309486262
+12-1130357017
 2121711020765
-MainWindow.xaml;ProductManager.xaml;
+GeneralManager.xaml;MainWindow.xaml;ProductManager.xaml;
 
-False
+True
 

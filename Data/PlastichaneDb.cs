@@ -19,5 +19,35 @@ namespace BeyzaSismanoglu_FinalProject.Data
             optionsBuilder.UseSqlServer(connectionString);
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = 1,
+                    RoleName = "General Manager",
+                    Username = "msismanoglu",
+                    Password = new Service.UserService().hashPassword("123456"),
+
+                }
+
+                );
+
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = 2,
+                    RoleName = "Product Manager",
+                    Username = "barbaros",
+                    Password = new Service.UserService().hashPassword("321654"),
+
+                }
+
+                );
+
+
+
+
+        }
     }
 }
