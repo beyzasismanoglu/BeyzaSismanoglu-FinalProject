@@ -42,7 +42,7 @@ namespace BeyzaSismanoglu_FinalProject
             this.Close();
         }
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e)        // https://youtu.be/66e074esd7s
+        private void btnAdd_Click(object sender, RoutedEventArgs e)        // Elimizle girdiğimiz dataları direkt database'e aktarıyor. https://youtu.be/66e074esd7s
         {
             var txtboxName = txtBoxName.Text;
             var txtboxStock = txtBoxStock.Text;

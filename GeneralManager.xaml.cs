@@ -27,7 +27,7 @@ namespace BeyzaSismanoglu_FinalProject
         {
             loginUser = user;
             InitializeComponent();
-            using(PlastichaneDb db=new PlastichaneDb())
+            using(PlastichaneDb db=new PlastichaneDb())                 //data grid'in içine databasedeki ürünleri çekmek için bunu kullandım. https://www.youtube.com/watch?v=66e074esd7s&list=PLLwnctd8nNtyX6JJSha6PTpV0K_zV5Dve
             {
                 Report.ItemsSource = db.Products.ToList();
             }
