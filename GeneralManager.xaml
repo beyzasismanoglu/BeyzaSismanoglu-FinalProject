@@ -37,7 +37,7 @@
             </MenuItem>
         </Menu>
 
-        <TextBlock  Name="txtLogin" Margin="10,10,-8,10" Grid.Row="2" FontSize="14"  ></TextBlock>
+        <TextBlock  Name="txtLogin" Margin="10,10,-8,10" Grid.Row="1" FontSize="14"  ></TextBlock>
         <DataGrid x:Name="Report" Grid.Row="2" Margin="10,10,18,83" AlternatingRowBackground="AliceBlue" CanUserAddRows="False">
             <DataGrid.Columns>
 
