@@ -76,3 +76,5 @@ F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\ProductManager.g.cs
 F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\GeneralManager.g.cs
 F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\GeneralManager.baml
 F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\ProductManager.baml
+F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\PasswordUpdate.g.cs
+F:\BeyzaSismanoglu_FinalProject\obj\Debug\netcoreapp3.0\PasswordUpdate.baml
